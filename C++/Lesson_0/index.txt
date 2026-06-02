@@ -1,0 +1,17 @@
+Low level vs high level
+The primary benefit of low-level languages is that they are fast. Assembly is still used today when there are sections of code that are performance critical.
+Most high-level languages can be either compiled or interpreted.
+The underlying design philosophy of C and C++ can be summed up as “trust the programmer” -- which is both wonderful and dangerous. C++ is designed to allow the programmer a high degree of freedom to do what they want. However, this also means the language often won’t stop you from doing things that don’t make sense, because it will assume you’re doing so for some reason it doesn’t understand. There are quite a few pitfalls that new programmers are likely to fall into if caught unaware. This is one of the primary reasons why knowing what you shouldn’t do in C/C++ is almost as important as knowing what you should do.
+Use  C++ for:
+    Video games
+    Real-time systems (e.g. for transportation, manufacturing, etc…)
+    High-performance financial applications (e.g. high frequency trading)
+    Graphical applications and simulations
+    Productivity / office applications
+    Embedded software
+    Audio and video processing
+    Artificial intelligence and neural networks
+
+Name the first/primary source code file in each program main.cpp. This makes it easy to determine which source code file is the primary one.
+source code  -> object files (compiler) -> executable (linker)
+Use the debug build configuration when developing your programs. When you’re ready to release your executable to others, or want to test performance, use the release build configuration.
