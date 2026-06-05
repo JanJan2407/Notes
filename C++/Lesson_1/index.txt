@@ -1,0 +1,4 @@
+A computer program is a sequence of instructions that tell the computer what to do. A statement is a type of instruction that causes the program to perform some action.
+Every C++ program must have a special function named main
+When discussing functions, it’s fairly common shorthand to append a pair of parenthesis to the end of the function’s name. main()
+In programming, the name of a function (or object, type, template, etc…) is called its identifier.
